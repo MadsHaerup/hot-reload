@@ -1,0 +1,20 @@
+{
+	"name": "@avalon/hot-reload",
+	"version": "0.1.0",
+	"description": "Hot reload system for Deno projects - automatically refresh pages when files change",
+	"main": "mod.ts",
+	"exports": {
+		".": "./mod.ts",
+		"./server": "./server.ts",
+		"./client": "./client.ts",
+		"./types": "./types.ts"
+	},
+	"files": ["mod.ts", "server.ts", "client.ts", "types.ts", "README.md"],
+	"scripts": {
+		"check": "deno check mod.ts",
+		"test": "deno test --allow-net --allow-read --allow-write --allow-env"
+	},
+	"keywords": ["deno", "hot-reload", "development", "file-watching", "live-reload"],
+	"author": "avalon Team",
+	"license": "MIT"
+}
