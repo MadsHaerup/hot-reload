@@ -1,4 +1,4 @@
-# @oshima/hot-reload
+# @avalon/hot-reload
 
 A drop-in hot reload system for Deno projects. Automatically refresh pages when files change with optimized WebSocket-based file watching.
 
